@@ -18,10 +18,6 @@ public class Lista {
         return nodes;
     }
 
-    public void setNodes(List<Node> nodes) {
-        this.nodes = nodes;
-    }
-
     public void adicionar(int value) {
         this.getNodes().add(new Node(value));
     }
